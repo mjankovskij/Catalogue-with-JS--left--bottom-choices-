@@ -1,0 +1,103 @@
+html {
+    background: #ffffff;
+}
+
+header {
+    text-align: center;
+    background: #c8cac8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    background: #f7f7f7;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+    background: #c8cac8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.box {
+    display: block;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 490px;
+    height: 400px;
+    background: #ffffff;
+    /* overflow: hidden; */
+    border: solid 1px #c8cac8;
+    border-radius: 5px;
+}
+
+.leftChoices {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 100%;
+    border-right: solid 1px #c7c5c5;
+}
+
+.leftChoices img {
+    display: block;
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border-bottom: solid 1px #dddada;
+}
+
+.mainPhoto {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Bottom choices */
+
+.box2 {
+    display: block;
+    margin: 10px;
+    width: 400px;
+    height: 490px;
+    margin-right: 100px;
+    background: #ffffff;
+    overflow: hidden;
+    border: solid 1px #c8cac8;
+    border-radius: 5px;
+    float: right;
+}
+
+.bottomChoices {
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-top: solid 1px #f1ecec;
+}
+
+.bottomChoices img {
+    display: inline-block;
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+.bottomChoices img:hover {
+    scale: 1.1;
+}
+
+footer a {
+    text-decoration: none;
+}
